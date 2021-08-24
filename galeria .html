@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes initial-scale=1.0,maximum-scale=3.0
+    minimum-scale=1.0">
+    <title>Galeria / Restaurante</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/font.css">
+</head>
+<body>
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <img src="" alt="" class="modal__img" id="modal__img">
+        </div>
+        <div class="modal__boton" id="modal__boton">x</div>
+    </div>
+    <header class="main-header">
+        <div class="container container--flex">
+          <div class="logo-container column column--50">
+              <h1 class="logo">Restaurante</h1></div>
+          <div class="main-header__contactInfo column column--50">
+              <p class="main-header__contactInfo__phone">
+                  <span class="icon-phone">0412-652-6040</span>
+              </p>
+              <p class="main-header__contactInfo__address">
+                 <span class="icon-location">Urb Santa Teresa-Tachira-Venezuela</span></p>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="container container--flex">
+        <span class="icon-menu" id="btn-menu"></span>
+        <ul class="menu" id="menu">
+            <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+            <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+            <li class="menu__item"><a href="galeria.html" class="menu__link menu__link--select">Galeria</a></li>
+            <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+        </ul>
+        <div class="social-icon">
+            <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+            <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+            <a href="" class="social-icon__link"><span class="icon-youtube"></span></a>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <img src="img/banner.gallery.jpg" alt="" class="banner__img">
+        <div class="banner__content">La mejor a tu servicio</div>
+    </section>
+     <main class="main"> 
+         <div class="grouo gallery">
+             <h2 class="group__title">Nuestra Galeria</h2>
+             <div class="container container--flex">
+                 <div class="column column--50-25">
+                     <img src="img/galeria/pexels-daria-shevtsova-3326533.jpg" alt="" class="gallery__img gallery__img--big">
+                     <img src="img/galeria/pexels-edward-eyer-1049626.jpg" alt="" class="gallery__img gallery__img--small">
+                 </div>
+                 <div class="column column--50-25">
+                     <img src="img/galeria/pexels-ella-olsson-3026805.jpg" alt="" class="gallery__img gallery__img--small">
+                     <img src="img/galeria/pexels-iconcom-1234535.jpg" alt="" class="gallery__img gallery__img--big">
+                 </div>
+                 <div class="column column--50-25">
+                    <img src="img/galeria/pexels-jonathan-borba-2983101.jpg" alt="" class="gallery__img gallery__img--big">
+                    <img src="img/galeria/pexels-rajesh-tp-1603901.jpg" alt="" class="gallery__img gallery__img--small">
+                 </div>
+                 <div class="column column--50-25">
+                    <img src="img/galeria/pexels-buenosia-carol-699544.jpg" alt="" class="gallery__img gallery__img--small">
+                    <img src="img/galeria/pexels-engin-akyurt-1438672.jpg" alt="" class="gallery__img gallery__img--big">
+                 </div>
+             </div>
+         </div>
+    </main>
+    <footer class="main-footer">
+            <div class="container container--flex">
+                <div class="column column--33"><h2 class="column__title">Por que visitarnos?</h2>
+                <p class="column__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque asperiores dignissimos non saepe unde in placeat perspiciatis maiores. Ipsam inventore dolor earum cumque ullam voluptates nemo veniam pariatur reprehenderit quod.</p></div>
+                <div class="column column--33"><h2 class="column__title">Contactanos</h2>
+                <p class="column__text">Urb Santa Teresa - Tachira, Venezuela</p>
+                <p class="column__text">Telefono:999-999-999</p>
+                <p class="column__text">consultas@turestaurante.com</p>
+            </div>
+                <div class="column column--33">
+                    <h2 class="column__title">Siguenos en nuestras redes</h2>
+                    <p class="column__text"><a href="" class="icon-facebook">Facebook</a></p>
+                    <p class="column__text"><a href="" class="icon-mail">Escribenos</a></p>
+                    <p class="column__text"><a href="" class="icon-youtube">Siguenos en nuestro canal</a>
+                    </p>
+            </div>
+            </div>
+            <p class="copy">2020 Tu restautante / Todos los derechos</p>
+</footer>
+<script src="js/menu.js"></script>
+<script src="js/modal.js"></script>
+</body>
+</html>
