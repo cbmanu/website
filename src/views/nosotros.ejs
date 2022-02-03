@@ -4,18 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes initial-scale=1.0,maximum-scale=3.0
     minimum-scale=1.0">
-    <title>Galeria / Restaurante</title>
+    <title>Nosotros / Restaurante</title>
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/nosotros.css">
     <link rel="stylesheet" href="css/font.css">
 </head>
 <body>
-    <div class="modal" id="modal">
-        <div class="modal__content">
-            <img src="" alt="" class="modal__img" id="modal__img">
-        </div>
-        <div class="modal__boton" id="modal__boton">x</div>
-    </div>
     <header class="main-header">
         <div class="container container--flex">
           <div class="logo-container column column--50">
@@ -32,10 +26,10 @@
         <div class="container container--flex">
         <span class="icon-menu" id="btn-menu"></span>
         <ul class="menu" id="menu">
-            <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
-            <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
-            <li class="menu__item"><a href="galeria.html" class="menu__link menu__link--select">Galeria</a></li>
-            <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+            <li class="menu__item"><a href="/" class="menu__link">Inicio</a></li>
+            <li class="menu__item"><a href="nosotros" class="menu__link menu__link--select">Nosotros</a></li>
+            <li class="menu__item"><a href="galeria" class="menu__link">Galeria</a></li>
+            <li class="menu__item"><a href="contacto" class="menu__link">Contacto</a></li>
         </ul>
         <div class="social-icon">
             <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
@@ -45,31 +39,36 @@
     </nav>
 
     <section class="banner">
-        <img src="img/banner.gallery.jpg" alt="" class="banner__img">
+        <img src="img/banner-about.jpg" alt="" class="banner__img">
         <div class="banner__content">La mejor a tu servicio</div>
     </section>
      <main class="main"> 
-         <div class="grouo gallery">
-             <h2 class="group__title">Nuestra Galeria</h2>
-             <div class="container container--flex">
-                 <div class="column column--50-25">
-                     <img src="img/galeria/pexels-daria-shevtsova-3326533.jpg" alt="" class="gallery__img gallery__img--big">
-                     <img src="img/galeria/pexels-edward-eyer-1049626.jpg" alt="" class="gallery__img gallery__img--small">
-                 </div>
-                 <div class="column column--50-25">
-                     <img src="img/galeria/pexels-ella-olsson-3026805.jpg" alt="" class="gallery__img gallery__img--small">
-                     <img src="img/galeria/pexels-iconcom-1234535.jpg" alt="" class="gallery__img gallery__img--big">
-                 </div>
-                 <div class="column column--50-25">
-                    <img src="img/galeria/pexels-jonathan-borba-2983101.jpg" alt="" class="gallery__img gallery__img--big">
-                    <img src="img/galeria/pexels-rajesh-tp-1603901.jpg" alt="" class="gallery__img gallery__img--small">
-                 </div>
-                 <div class="column column--50-25">
-                    <img src="img/galeria/pexels-buenosia-carol-699544.jpg" alt="" class="gallery__img gallery__img--small">
-                    <img src="img/galeria/pexels-engin-akyurt-1438672.jpg" alt="" class="gallery__img gallery__img--big">
-                 </div>
+         <section class="group group--color">
+             <div class="container">
+                 <h2 class="main__title">Sobre Nosotros</h2>
+                 <p class="main__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tempora vitae laborum, velit maiores asperiores dolores cumque rem voluptatem, atque adipisci deleniti ducimus alias cupiditate perspiciatis tempore, sed esse et.</p>
+             </div>
+         </section>
+         <section class="group our-team">
+         <h2 class="group__title">Nuestro Equipo</h2>
+         <div class="container container--flex">
+             <div class="column column--33">
+                 <h3 class="our-team__title">Manuel</h3>
+                 <img src="img/chef 1.jpg" alt="" class="our-team__img">
+                 <p class="our-team--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti laudantium laborum rem obcaecati, incidunt, commodi nisi hic, at suscipit dicta illum! Adipisci, atque autem perspiciatis praesentium recusandae debitis doloremque omnis!</p>
+             </div>
+             <div class="column column--33">
+                 <h3 class="our-team__title">Gonzalo</h3>
+                 <img src="img/chef 2.jpg" alt="" class="our-team__img">
+                 <p class="our-team--text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima recusandae perspiciatis cupiditate cum, at placeat labore odio quos. Praesentium dolorem repellat perspiciatis? Nisi quibusdam laboriosam maxime molestias accusamus cupiditate aspernatur!</p>
+             </div>
+             <div class="column column--33">
+                 <h3 class="our-team__title">Maria</h3>
+                 <img src="img/chef 3.jpg" alt="" class="our-team__img">
+                 <p class="our-team--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dignissimos fugiat veritatis fuga sed harum fugit facere, ducimus quos sunt, ipsum officiis soluta amet accusamus molestiae blanditiis odit quis eos.</p>
              </div>
          </div>
+        </section>
     </main>
     <footer class="main-footer">
             <div class="container container--flex">
@@ -91,6 +90,5 @@
             <p class="copy">2020 Tu restautante / Todos los derechos</p>
 </footer>
 <script src="js/menu.js"></script>
-<script src="js/modal.js"></script>
 </body>
 </html>

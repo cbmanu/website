@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes initial-scale=1.0,maximum-scale=3.0
     minimum-scale=1.0">
-    <title>Nosotros / Restaurante</title>
+    <title>Restaurante</title>
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/nosotros.css">
     <link rel="stylesheet" href="css/font.css">
 </head>
 <body>
@@ -26,10 +25,10 @@
         <div class="container container--flex">
         <span class="icon-menu" id="btn-menu"></span>
         <ul class="menu" id="menu">
-            <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
-            <li class="menu__item"><a href="nosotros.html" class="menu__link menu__link--select">Nosotros</a></li>
-            <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
-            <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+            <li class="menu_em"><a href="/" class="menu__link menu__link--select">Inicio</a></li>
+            <li class="menu__item"><a href="nosotros" class="menu__link">Nosotros</a></li>
+            <li class="menu__item"><a href="galeria" class="menu__link">Galeria</a></li>
+            <li class="menu__item_it"><a href="contacto" class="menu__link">Contacto</a></li>
         </ul>
         <div class="social-icon">
             <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
@@ -37,38 +36,58 @@
             <a href="" class="social-icon__link"><span class="icon-youtube"></span></a>
         </div>
     </nav>
-
     <section class="banner">
-        <img src="img/banner-about.jpg" alt="" class="banner__img">
-        <div class="banner__content">La mejor a tu servicio</div>
+        <img src="img/banner.jpg" alt="" class="banner__img">
+        <div class="banner__content">La mejor y exquisita comida para ti</div>
     </section>
      <main class="main"> 
          <section class="group group--color">
              <div class="container">
-                 <h2 class="main__title">Sobre Nosotros</h2>
+                 <h2 class="main__title">Bienvenido a su Restaurante</h2>
                  <p class="main__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tempora vitae laborum, velit maiores asperiores dolores cumque rem voluptatem, atque adipisci deleniti ducimus alias cupiditate perspiciatis tempore, sed esse et.</p>
              </div>
          </section>
-         <section class="group our-team">
-         <h2 class="group__title">Nuestro Equipo</h2>
-         <div class="container container--flex">
-             <div class="column column--33">
-                 <h3 class="our-team__title">Manuel</h3>
-                 <img src="img/chef 1.jpg" alt="" class="our-team__img">
-                 <p class="our-team--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti laudantium laborum rem obcaecati, incidunt, commodi nisi hic, at suscipit dicta illum! Adipisci, atque autem perspiciatis praesentium recusandae debitis doloremque omnis!</p>
-             </div>
-             <div class="column column--33">
-                 <h3 class="our-team__title">Gonzalo</h3>
-                 <img src="img/chef 2.jpg" alt="" class="our-team__img">
-                 <p class="our-team--text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima recusandae perspiciatis cupiditate cum, at placeat labore odio quos. Praesentium dolorem repellat perspiciatis? Nisi quibusdam laboriosam maxime molestias accusamus cupiditate aspernatur!</p>
-             </div>
-             <div class="column column--33">
-                 <h3 class="our-team__title">Maria</h3>
-                 <img src="img/chef 3.jpg" alt="" class="our-team__img">
-                 <p class="our-team--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dignissimos fugiat veritatis fuga sed harum fugit facere, ducimus quos sunt, ipsum officiis soluta amet accusamus molestiae blanditiis odit quis eos.</p>
-             </div>
-         </div>
+
+          <section class="group main__about__description">
+          <div class="container container--flex">
+            <div class="column column--50">
+              <img src="img/food1.jpg" alt="" class="img">
+            </div>
+          <div class="column column--50">
+              <h3 class="column__title">Expertos en pizzas</h3>
+              <p class="column__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, ducimus et accusamus reiciendis eos, rem consequuntur numquam doloremque quibusdam blanditiis sed velit assumenda veniam perferendis fuga dolorem odit temporibus delectus?</p>
+              <a href="" class="btn btn__contact">Contacto</a>
+              </div>
+          </div>
+            </section>
+              <section class="group today-special">
+              <h2 class="group__title">Especiales de hoy</h2>
+              <div class="container container--flex">
+                <div class="column column--50-25">
+                    <img src="img/plate1.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">Especial del dia 1</div>
+                    <div class="today-special__price">$99</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/plate2.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">Especial del dia 2</div>
+                    <div class="today-special__price">$99</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/plate3.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">Especial del dia 3</div>
+                    <div class="today-special__price">$99</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/plate4.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">Especial del dia 4</div>
+                    <div class="today-special__price">$99</div>
+                </div>
+            </section>
+          </div>
         </section>
+
+        
     </main>
     <footer class="main-footer">
             <div class="container container--flex">
@@ -85,6 +104,7 @@
                     <p class="column__text"><a href="" class="icon-mail">Escribenos</a></p>
                     <p class="column__text"><a href="" class="icon-youtube">Siguenos en nuestro canal</a>
                     </p>
+                   
             </div>
             </div>
             <p class="copy">2020 Tu restautante / Todos los derechos</p>
